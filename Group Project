@@ -1,4 +1,6 @@
 #MAKE SURE EXCEL SPREADSHEET AND JUPYTER FILE ARE IN SAME FOLDER
+#MAKE SURE !pip install openpyxl has been executed
+#MAKE SURE !pip install plyer has been executed 
 from datetime import datetime, timedelta
 from openpyxl import Workbook, load_workbook
 from plyer import notification
